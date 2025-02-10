@@ -8,7 +8,7 @@ const Report = ({ alt, text = '', name = '', destiny = '', className = ''}) =>  
             <div className="absolute left-56 sm:left-[30rem] top-[-20] lg:left-[15rem] xl:left-[18rem] 2xl:left-[24rem]">
                 <FaQuoteRight 
                     className="size-6 sm:size-10"
-                    color="#374151"
+                    color="#0F766E"
                 />
             </div>
             <div className="flex">
@@ -27,7 +27,7 @@ const Report = ({ alt, text = '', name = '', destiny = '', className = ''}) =>  
             <div className="avatar">
                 <div className="w-10 rounded-xl">
                     <Image 
-                        src="/colaborador_1.jpg"
+                        src="/fundo_verde.png"
                         width={32}
                         height={32}
                         alt="Nome do cliente"

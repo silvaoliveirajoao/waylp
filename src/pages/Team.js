@@ -17,9 +17,9 @@ const Team = () => {
                 </h3>
             </div>
             <div className="flex items-center justify-center flex-col gap-6 my-6 md:flex-row md:flex-wrap">
-                <div className="card bg-gray-200 w-64 shadow-xl">
+                <div className="card bg-white w-64 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-cyan-400">Nome do colaborador</h2>
+                        <h2 className="card-title text-teal-700">Nome do colaborador</h2>
                         <p className="text-gray-700">Aqui iremos descrever as atividades do colaborador.</p>
                     </div>
                     <figure className="w-64 h-44 relative">
@@ -30,9 +30,9 @@ const Team = () => {
                         />
                     </figure>
                 </div>
-                <div className="card bg-gray-200 w-64 shadow-xl">
+                <div className="card bg-white w-64 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-cyan-400">Nome do colaborador</h2>
+                        <h2 className="card-title text-teal-700">Nome do colaborador</h2>
                         <p className="text-gray-700">Aqui iremos descrever as atividades do colaborador.</p>
                     </div>
                     <figure className="w-64 h-44 relative">
@@ -43,9 +43,9 @@ const Team = () => {
                         />
                     </figure>
                 </div>
-                <div className="card bg-gray-200 w-64 shadow-xl">
+                <div className="card bg-white w-64 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-cyan-400">Nome do colaborador</h2>
+                        <h2 className="card-title text-teal-700">Nome do colaborador</h2>
                         <p className="text-gray-700">Aqui iremos descrever as atividades do colaborador.</p>
                     </div>
                     <figure className="w-64 h-44 relative">
@@ -56,9 +56,9 @@ const Team = () => {
                         />
                     </figure>
                 </div>
-                <div className="card bg-gray-200 w-64 shadow-xl">
+                <div className="card bg-white w-64 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-cyan-400">Nome do colaborador</h2>
+                        <h2 className="card-title text-teal-700">Nome do colaborador</h2>
                         <p className="text-gray-700">Aqui iremos descrever as atividades do colaborador.</p>
                     </div>
                     <figure className="w-64 h-44 relative">
@@ -69,9 +69,9 @@ const Team = () => {
                         />
                     </figure>
                 </div>
-                <div className="card bg-gray-200 w-64 shadow-xl">
+                <div className="card bg-white w-64 shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-cyan-400">Nome do colaborador</h2>
+                        <h2 className="card-title text-teal-700">Nome do colaborador</h2>
                         <p className="text-gray-700">Aqui iremos descrever as atividades do colaborador.</p>
                     </div>
                     <figure className="w-64 h-44 relative">

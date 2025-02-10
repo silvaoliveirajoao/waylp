@@ -34,7 +34,7 @@ const Feedbacks = () => {
                         <div className="bg-branco w-full rounded-3xl flex justify-center">
                             <Report 
                                 text="Achei toda a experiência maravilhosa, muito obrigado por terem feito parte de tudo... Cuidaram de cada detalhe, superaram todas as expectivativas!!! <3"
-                                src="/colaborador_1.jpg"
+                                src="/fundo_verde"
                                 name="Nome do Cliente"
                                 destiny="Destino do cliente - Ano da viagem"
                                 alt={'Nome do cliente'}
@@ -43,7 +43,7 @@ const Feedbacks = () => {
                         <div className="bg-branco w-full rounded-3xl flex justify-center">
                             <Report 
                                 text="Achei toda a experiência maravilhosa, muito obrigado por terem feito parte de tudo... Cuidaram de cada detalhe, superaram todas as expectivativas!!! <3"
-                                src="/colaborador_1.jpg"
+                                src="/fundo_verde.png"
                                 name="Nome do Cliente"
                                 destiny="Destino do cliente - Ano da viagem"
                                 alt={'Nome do cliente'}
@@ -92,7 +92,7 @@ const Feedbacks = () => {
                 </div>
             </div>
             <div className="w-full flex justify-center pt-6">
-                <div className="mt-4 w-full h-12 items-center flex justify-between bg-base-200 rounded-3xl lg:w-[69%]">
+                <div className="mt-4 w-full h-12 items-center flex justify-between bg-cyan-400 rounded-3xl lg:w-[69%]">
                     <span className="font-semibold text-white text-sm ml-4 sm:text-lg">
                         Seja você o proximo:
                     </span>

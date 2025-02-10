@@ -11,7 +11,7 @@ const LastCall = () => {
                     width={1200}
                     height={700}
                 />
-                <div className="flex flex-col gap-4 items-center absolute top-20">
+                <div className="flex flex-col gap-4 items-center absolute top-1/4">
                     <div>
                         <Image 
                             src="/logo.png"

@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "", delay: 1 },
+    { name: "Home", href: "#", delay: 1 },
     { name: "Sobre", href: "#aboutUs", delay: 2 },
     { name: "Viaje em grupo", href: "#groups", delay: 3 },
     { name: "Viagens personalizadas", href: "#storyTelling", delay: 4 },
@@ -71,10 +71,10 @@ const Header = () => {
             style={{ transitionDelay: `calc(0.1s * ${link.delay})` }}
             className={`
               block text-[0.75rem] text-white text-center no-underline font-medium
-              transform-gpu translate-y-[-50px] opacity-0
-              transition-all duration-300 ease
+              transform-gpu
+              transition-all duration-250 ease
               md:translate-y-0 md:opacity-100 md:transition-none
-              ${isOpen ? "translate-y-0 opacity-100" : ""}
+              ${isOpen ? "translate-y-0 opacity-100 py-2" : "translate-y-[-50px] opacity-0"}
             `}
           >
             {link.name}

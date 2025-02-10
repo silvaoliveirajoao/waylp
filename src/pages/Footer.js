@@ -8,7 +8,7 @@ import Image from "next/image"
 
 export default function Footer() { 
     return (
-        <footer className="footer bg-base-200 text-base-content p-10">
+        <footer className="footer bg-teal-700 text-white p-10">
             <aside>
                 <Image 
                     src="/logo_sem_escrita.png"

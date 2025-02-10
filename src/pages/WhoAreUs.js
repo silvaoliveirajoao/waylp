@@ -9,7 +9,7 @@ export default function WhoAreUs() {
     return (
         <div id="aboutUs" className="container mx-auto w-4/5 space-y-5 pt-10">
             <div className="w-full text-center space-y-5 pt-10">
-                <h2 className="text-2xl font-bold text-gray-700">
+                <h2 className="text-2xl font-bold text-cyan-400">
                     Quem somos nós?
                 </h2>
                 <span className="text-xl text-gray-700">
@@ -28,7 +28,7 @@ export default function WhoAreUs() {
                             svg={
                             <GiSelfLove 
                                 size={32}
-                                color="#374151"
+                                color="#0F766E"
                             />
                             } 
                         /> 
@@ -39,7 +39,7 @@ export default function WhoAreUs() {
                             svg={
                                 <RiRouteLine 
                                     size={32}
-                                    color="#374151"  
+                                    color="#0F766E"  
                                />
                             }
                         /> 
@@ -50,7 +50,7 @@ export default function WhoAreUs() {
                             svg={
                                 <MdSecurity
                                     size={32}
-                                    color="#374151"
+                                    color="#0F766E"
                                 />
                             }
                         /> 
@@ -61,7 +61,7 @@ export default function WhoAreUs() {
                             svg={
                                 <MdOutlineLoyalty 
                                     size={32}
-                                    color="#374151"   
+                                    color="#0F766E"   
                                 />
                             }
                         /> 

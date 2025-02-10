@@ -11,7 +11,7 @@ const ServicesCard = ({img = '', title = '', content = '', bgColor, textColor })
                     alt="teste"
                 />
             </div>
-            <div className={`w-4/5 ${bgColor} border-solid border-[1px] flex flex-col items-center gap-2 border-gray-400 rounded-xl shadow-xl relative bottom-20 p-2`}>
+            <div className={`w-4/5 ${bgColor} border-solid border-[1px] flex flex-col items-center gap-2 border-slate-100 rounded-xl shadow-xl relative bottom-20 p-2`}>
                 <div className={`${textColor} text-base font-bold border-gray-400 border-b-[1px]`}>
                     { title }
                 </div>

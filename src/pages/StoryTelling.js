@@ -5,7 +5,7 @@ import { LiaMapMarkedSolid } from "react-icons/lia";
 import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 import { VscChecklist } from "react-icons/vsc";
 import { MdOutlineSupportAgent } from "react-icons/md";
-
+import { BsChatDots } from "react-icons/bs";
 
 const TimelineStep = ({ icon, title, description, position = "right", lineColor }) => {
   return (
@@ -14,19 +14,19 @@ const TimelineStep = ({ icon, title, description, position = "right", lineColor 
       {position === "left" && (
         <div className="flex text-right">
           <div className="max-w-md ml-auto">
-            <h3 className="text-base text-gray-600 font-semibold mb-2 text-left md:text-lg">{title}</h3>
+            <h3 className="text-base text-gray-600 font-semibold mb-2 text-left md:text-lg italic">{title}</h3>
             <p className="text-xs text-gray-600 text-left md:text-base">{description}</p>
           </div>
           <div className='flex items-center ml-2'>
-            <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
-            <div className="h-px w-16 bg-cyan-400"></div>
+            <div className="w-2 h-2 rounded-full bg-teal-100"></div>
+            <div className="h-px w-16 bg-teal-100"></div>
           </div>
         </div>
       )}
 
       {/* centro com o ícone */}
       <div className="relative">
-        <div className="w-20 h-20 rounded-full bg-cyan-400 flex items-center justify-center md:w-24 md:h-24">
+        <div className="w-20 h-20 rounded-full bg-teal-100 flex items-center justify-center md:w-24 md:h-24">
           {icon}
         </div>
         {/* Vertical connecting line */}
@@ -37,11 +37,11 @@ const TimelineStep = ({ icon, title, description, position = "right", lineColor 
       {position === "right" && (
         <div className="flex">
           <div className='flex items-center mr-2'>
-            <div className="h-px w-16 bg-cyan-400"></div>
-            <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
+            <div className="h-px w-16 bg-teal-100"></div>
+            <div className="w-2 h-2 rounded-full bg-teal-100"></div>
           </div>
           <div className="max-w-md">
-            <h3 className="text-base text-gray-600 font-semibold mb-2 text-right md:text-lg">{title}</h3>
+            <h3 className="text-base text-gray-600 font-semibold mb-2 text-right md:text-lg italic">{title}</h3>
             <p className="text-xs text-gray-600 text-right md:text-base">{description}</p>
           </div>
         </div>
@@ -71,13 +71,14 @@ const StoryTelling = () => {
           <TimelineStep
             position="left"
             icon={
-              <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-              </svg>
+              <BsChatDots 
+               size={32}
+               color='#44403c'
+              />
             }
             title="Tudo começa com uma conversa!"
             description="Assim que você entra em contato conosco, seja pelo e-mail, WhatsApp, ou presencialmente, nossa equipe já começa a entender suas necessidades e sonhos de viagem. Quer uma viagem em grupo para explorar as belezas da Europa ou um roteiro personalizado para descobrir os Lençóis Maranhenses? Estamos prontas para ouvir você."
-            lineColor="bg-cyan-400"
+            lineColor="bg-teal-100"
           />
         </div>
 
@@ -88,12 +89,12 @@ const StoryTelling = () => {
             icon={
               <MdOutlineTravelExplore 
                 size={32} 
-                color='white'
+                color='#44403c'
               />
             }
             title="Cada destino, uma nova descoberta."
             description="Nesta fase, a Way Turismo apresenta uma seleção de destinos incríveis que atendem ao seu perfil de viajante. Somos especialistas em lugares como Europa, Lençóis Maranhenses, e Curaçao, mas também oferecemos opções ao redor do mundo, desde grandes centros culturais até refúgios exóticos. Tudo sempre feito com o máximo de personalização e exclusividade."
-            lineColor="bg-cyan-400"
+            lineColor="bg-teal-100"
           />
         </div>
 
@@ -104,12 +105,12 @@ const StoryTelling = () => {
             icon={
               <LiaMapMarkedSolid
                 size={32}
-                color='white'
+                color='#44403c'
               />
             }
             title="Roteiros únicos, feitos sob medida"
             description="Após a escolha dos destinos, montamos um roteiro completo, detalhando cada passo da sua viagem. Isso inclui a escolha de hospedagens, transporte, passeios e atividades locais que vão transformar sua viagem em uma experiência única. Nosso diferencial está na qualidade dos roteiros, cuidadosamente planejados com base em nossas experiências e na expertise de nossa equipe."
-            lineColor="bg-cyan-400"
+            lineColor="bg-teal-100"
           />
         </div>
 
@@ -120,12 +121,12 @@ const StoryTelling = () => {
             icon={
               <HiOutlineClipboardDocumentCheck 
                 size={32}
-                color='white'
+                color='#44403c'
               />
             }
             title="Documentação e Reservas - Cuidamos de Tudo para Você"
             description="Antes da sua partida, nossa equipe fará um checklist completo, garantindo que todos os itens estejam em ordem: passagens emitidas, hospedagens confirmadas e assistência 24 horas disponível. Este cuidado final é o que garante que sua experiência seja perfeita, do início ao fim."
-            lineColor="bg-cyan-400"
+            lineColor="bg-teal-100"
           />
         </div>
 
@@ -136,12 +137,12 @@ const StoryTelling = () => {
             icon={
               <VscChecklist 
                 size={32}
-                color='white'
+                color='#44403c'
               />
             }
             title="Tudo pronto para sua grande aventura."
             description="Antes da sua partida, nossa equipe fará um checklist completo, garantindo que todos os itens estejam em ordem: passagens emitidas, hospedagens confirmadas e assistência 24 horas disponível. Este cuidado final é o que garante que sua experiência seja perfeita, do início ao fim."
-            lineColor="bg-cyan-400"
+            lineColor="bg-teal-100"
           />
         </div>
         
@@ -152,7 +153,7 @@ const StoryTelling = () => {
             icon={
               <MdOutlineSupportAgent 
                 size={32}
-                color='white'
+                color='#44403c'
               />
             }
             title="Sempre ao seu lado, onde quer que você esteja."
@@ -160,9 +161,9 @@ const StoryTelling = () => {
           />
         </div>
       </div>
-      <div className='w-full my-6 flex flex-row items-center justify-center md:gap-6 lg:gap-12'>
-        <button className="btn btn-ghost">Entrar em contato agora!</button>
-        <button className="btn btn-ghost">Quero me chamem.</button>
+      <div className='w-full my-6 flex flex-row items-center justify-center gap-4 md:gap-6 lg:gap-12'>
+        <button className="btn btn-md bg-teal-700 text-white border-teal-600">Entrar em contato agora!</button>
+        <button className="btn btn-md bg-teal-700 text-white border-teal-600">Quero me chamem.</button>
       </div>
     </div>
   );
