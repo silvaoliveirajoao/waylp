@@ -1,6 +1,7 @@
 import Report from "@/components/Report"
 import { VscFeedback } from "react-icons/vsc";
 import VideoLoop from "@/components/VideoLoop";
+const mensagem = encodeURIComponent("Olá, estava no site da Way e queria saber mais sobre os serviços oferecidos.");
 
 const Feedbacks = () => {
     return (
@@ -97,7 +98,12 @@ const Feedbacks = () => {
                         Seja você o proximo:
                     </span>
                     <div className="mr-4">
-                        <button className="btn btn-ghost text-white sm:text-lg">Entrar em contato</button>
+                    <a
+                        href={`https://wa.me/5547991480037?text=${mensagem}`}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button className="btn btn-ghost cursor-pointer text-white sm:text-lg">Entrar em contato</button>
+                    </a>
                     </div>
                 </div>
             </div>

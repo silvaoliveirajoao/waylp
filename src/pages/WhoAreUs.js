@@ -8,7 +8,13 @@ import { MdOutlineLoyalty } from "react-icons/md";
 export default function WhoAreUs() {
     return (
         <div id="aboutUs" className="container mx-auto w-4/5 space-y-5 pt-10">
-            <div className="w-full text-center space-y-5 pt-10">
+            <div className="w-full flex flex-col items-center text-center pt-10">
+                <Image 
+                    src={'/logo_sem_escrita.png'}
+                    alt="Logo Way Turismo"
+                    width={64}
+                    height={64}
+                />
                 <h2 className="text-2xl font-bold text-cyan-400">
                     Quem somos nós?
                 </h2>

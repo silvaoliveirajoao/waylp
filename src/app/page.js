@@ -1,4 +1,3 @@
-import Header from "@/pages/Header";
 import Home from "@/pages/Home"
 import WhoAreUs from "@/pages/WhoAreUs";
 import Groups from "@/pages/Groups";
@@ -13,7 +12,6 @@ import Footer from "@/pages/Footer"
 export default function Page() {
   return (
     <main className="w-full flex flex-col flex-grow items-center gap-6">
-        <Header />
         <Home />
         <WhoAreUs />
         <Groups />

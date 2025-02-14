@@ -8,23 +8,22 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#", delay: 1 },
-    { name: "Sobre", href: "#aboutUs", delay: 2 },
-    { name: "Viaje em grupo", href: "#groups", delay: 3 },
-    { name: "Viagens personalizadas", href: "#storyTelling", delay: 4 },
-    { name: "Nossos serviços", href: "#solutions", delay: 5 },
-    { name: "Nossas especialidades", href: "#roadmaps", delay: 6 },
-    { name: "Feedbacks", href: "#feedbacks", delay: 7 },
+    { name: "Sobre", href: "#aboutUs", delay: 1 },
+    { name: "Viaje em grupo", href: "#groups", delay: 2 },
+    { name: "Viagens personalizadas", href: "#storyTelling", delay: 3 },
+    { name: "Nossos serviços", href: "#solutions", delay: 4 },
+    { name: "Nossas especialidades", href: "#roadmaps", delay: 5 },
+    { name: "Feedbacks", href: "#feedbacks", delay: 6 },
   ];
 
   return (
     <header
       className="
-        relative group top-0 left-0 w-full
+        relative top-0 left-0 w-full
         flex justify-between items-center
         z-[100]
         py-[1.3rem] px-[5%]
-        md:px-[10%]
+        md:px-[10%] sm:gap-2 lg:w-screen
       "
     >
       {/* Efeito de blur (header-before) */}

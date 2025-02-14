@@ -4,7 +4,7 @@ import { HiUserGroup } from "react-icons/hi2";
 
 export default function Groups() {
     return (
-        <div id="groups" className="container w-[23rem] bg-white rounded-3xl flex flex-col justify-center items-center shadow-lg shadow-gray-300 p-6 gap-6 sm:w-[23rem] md:w-4/5 md:flex-row md:flex-wrap xl:flex-row">
+        <div id="groups" className="container w-[22rem] bg-white rounded-3xl flex flex-col justify-center items-center shadow-lg shadow-gray-300 p-6 gap-6 mt-24 sm:w-[23rem] md:w-4/5 md:flex-row md:flex-wrap xl:flex-row">
             <div id="header" className="flex flex-col items-center lg:w-[480px] xl:w-[1200px]">
                 <HiUserGroup 
                     size={32}
@@ -52,27 +52,27 @@ export default function Groups() {
                 </div>
             </div>
             <div id="dropdowns" className="flex flex-col gap-3 md:w-[412px] lg:hidden">
-                <div tabIndex={0} className="collapse collapse-arrow bg-teal-700 border">
-                    <div className="collapse-title text-base font-medium text-white">Como funcionam os grupos da Way?</div>
+                <div tabIndex={0} className="collapse collapse-arrow bg-teal-100 border">
+                    <div className="collapse-title text-base font-medium text-gray-700">Como funcionam os grupos da Way?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis</p>
+                        <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis</p>
                     </div>
                 </div>
-                <div tabIndex={1} className="collapse collapse-arrow bg-teal-700 border text-white">
-                    <div className="collapse-title text-base font-medium">Quais são os diferenciais da Way?</div>
+                <div tabIndex={1} className="collapse collapse-arrow bg-teal-100 border">
+                    <div className="collapse-title text-base font-medium text-gray-700">Quais são os diferenciais da Way?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis. In in viverra sem. Suspendisse euismod gravida ex, non volutpat lacus laoreet at.</p>
+                        <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis. In in viverra sem. Suspendisse euismod gravida ex, non volutpat lacus laoreet at.</p>
                     </div>
                 </div>
             </div>
             <div id="hiddenOnSM" className="hidden lg:flex lg:flex-col lg:w-64 lg:gap-2 lg:items-start xl:w-96">
                 <div>
                     <h3 className="font-bold text-gray-700 xl:text-xl">Como funcionam os grupos da Way?</h3>
-                    <p className="text-sm xl:text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis.</p>
+                    <p className="text-sm xl:text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis.</p>
                 </div>
                 <div>
                     <h3 className="font-bold text-gray-700 xl:text-xl">Quais são os diferenciais da Way?</h3>
-                    <p className="text-sm xl:text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis.</p>
+                    <p className="text-sm xl:text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tristique ante. Duis commodo scelerisque scelerisque. Sed venenatis quis urna eget fringilla. Suspendisse interdum tortor nulla, ac fringilla risus finibus ac. Sed dignissim pharetra neque, non pharetra mi laoreet convallis.</p>
                 </div>
             </div>
             <div id="buttons" className="hidden lg:flex lg:gap-8 xl:w-[1200px] xl:justify-center">

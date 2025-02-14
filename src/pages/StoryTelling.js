@@ -6,6 +6,9 @@ import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 import { VscChecklist } from "react-icons/vsc";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
+import Form from "../components/Form";
+
+const mensagem = encodeURIComponent("Olá, estava no site da Way e queria saber mais sobre os serviços oferecidos.");
 
 const TimelineStep = ({ icon, title, description, position = "right", lineColor }) => {
   return (
@@ -162,8 +165,15 @@ const StoryTelling = () => {
         </div>
       </div>
       <div className='w-full my-6 flex flex-row items-center justify-center gap-4 md:gap-6 lg:gap-12'>
-        <button className="btn btn-md bg-teal-700 text-white border-teal-600">Entrar em contato agora!</button>
-        <button className="btn btn-md bg-teal-700 text-white border-teal-600">Quero me chamem.</button>
+      <a 
+        href={`https://wa.me/5547991480037?text=${mensagem}`}
+        target="_blank"
+        rel="noopener noreferrer">
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-teal-700 text-white border-teal-600 shadow-md hover:bg-teal-900 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-opacity-75">
+            Entrar em contato agora!
+          </button>
+        </a>
+        <Form />
       </div>
     </div>
   );

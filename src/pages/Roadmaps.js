@@ -1,5 +1,8 @@
 import Image from "next/image";
 const Oceano = "/Oceano_Vertical.jpg"
+const MachuPicchu = "/machuPicchu.jpg"
+const PiramidesEgito = "/piramidesEgito.jpg"
+const PraiaNordeste = "/praiaNordeste.jpg"
 import { BsFillBookmarkHeartFill } from "react-icons/bs";
 
 const Roadmaps = () => {
@@ -34,7 +37,7 @@ const Roadmaps = () => {
                 <a href="" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100">
                     <Image 
                         className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                        src={Oceano}
+                        src={MachuPicchu}
                         alt="Oceano"
                         width={200}
                         height={160}
@@ -47,7 +50,7 @@ const Roadmaps = () => {
                 <a href="" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100">
                     <Image 
                         className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                        src={Oceano}
+                        src={PiramidesEgito}
                         alt="Oceano"
                         width={200}
                         height={160}
@@ -60,7 +63,7 @@ const Roadmaps = () => {
                 <a href="" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100">
                     <Image 
                         className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                        src={Oceano}
+                        src={PraiaNordeste}
                         alt="Oceano"
                         width={200}
                         height={160}

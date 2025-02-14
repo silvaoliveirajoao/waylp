@@ -1,4 +1,5 @@
 import Image from "next/image";
+const mensagem = encodeURIComponent("Olá, estava no site da Way e queria saber mais sobre os serviços oferecidos.");
 
 const LastCall = () => {
     return (
@@ -26,7 +27,12 @@ const LastCall = () => {
                         </h3>
                     </div>
                     <div>
-                        <button className="btn btn-ghost text-white text-lg md:text-3xl lg:text-3xl">Planeje agora mesmo!</button>
+                        <a
+                        href={`https://wa.me/5547991480037?text=${mensagem}`}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            <button className="btn btn-ghost text-white text-lg cursor-pointer md:text-3xl lg:text-3xl">Planeje agora mesmo!</button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ const Team = () => {
                     </div>
                     <figure className="w-64 h-44 relative">
                         <Image
-                        src="/colaborador_1.jpg"
+                        src="/colaborador_2.jpg"
                         alt="Colaborador"
                         fill
                         />
@@ -50,7 +50,7 @@ const Team = () => {
                     </div>
                     <figure className="w-64 h-44 relative">
                         <Image
-                        src="/colaborador_1.jpg"
+                        src="/colaborador_3.jpg"
                         alt="Colaborador"
                         fill
                         />
@@ -63,7 +63,7 @@ const Team = () => {
                     </div>
                     <figure className="w-64 h-44 relative">
                         <Image
-                        src="/colaborador_1.jpg"
+                        src="/colaborador_4.jpg"
                         alt="Colaborador"
                         fill
                         />
@@ -76,7 +76,7 @@ const Team = () => {
                     </div>
                     <figure className="w-64 h-44 relative">
                         <Image
-                        src="/colaborador_1.jpg"
+                        src="/colaborador_5.jpg"
                         alt="Colaborador"
                         fill
                         />
