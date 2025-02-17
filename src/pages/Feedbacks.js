@@ -93,7 +93,7 @@ const Feedbacks = () => {
                 </div>
             </div>
             <div className="w-full flex justify-center pt-6">
-                <div className="mt-4 w-full h-12 items-center flex justify-between bg-cyan-400 rounded-3xl lg:w-[69%]">
+                <div className="mt-4 w-full h-12 items-center flex justify-between bg-gray-600 rounded-3xl lg:w-[72vw]">
                     <span className="font-semibold text-white text-sm ml-4 sm:text-lg">
                         Seja você o proximo:
                     </span>
